@@ -14,3 +14,16 @@ for (i=0;i<skilllist.name.length;i++) {
     let widthcl = document.querySelector("."+classwidth)
     widthcl.style.width = skilllist.progress[i] + "%"
 }
+
+
+
+const mobileNav = document.querySelector(".hamburger");
+const navbar = document.querySelector(".menu");
+
+const toggleNav = () => {
+  navbar.classList.toggle("hidemenu");
+  navbar.classList.toggle("active");
+  mobileNav.classList.toggle("hamburger-active");
+};
+mobileNav.addEventListener("click", () => toggleNav());
+navbar.addEventListener("click", () => toggleNav());
