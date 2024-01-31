@@ -182,11 +182,6 @@
         height: max-content;
         width: max-content;
     }
-/*
-    .contact_content>.card{
-        width: max-content;
-    }
-*/
     .contact_content>.card>img{
         position: static;
     }
@@ -207,14 +202,8 @@
       .hamburger-active {
         transition: all 0.3s ease-in-out;
         transition-delay: 0.6s;
-      }/*
-      .header>.hidemenu{
-        display: grid;
-        justify-content: space-between;
-        align-items: center;
-        transition: all 0.3s ease-in-out;
-    }*/
-    .header>.menu>a{
+      }
+      .header>.menu>a{
         font-size: 20px;
         color: #ffffff;
         text-decoration: none;
